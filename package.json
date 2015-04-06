@@ -1,4 +1,25 @@
 {
-  "name": "application-name",
-  "version": "0.0.1"
+  "name": "karma-test-for-project",
+  "version": "0.0.1",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "karma": "^0.12.17",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-jasmine": "^0.1.5",
+    "karma-coverage": "~0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://m00nst3r@bitbucket.org/m00nst3r/karma-test-for-project.git"
+  }
 }

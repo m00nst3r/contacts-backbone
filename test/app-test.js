@@ -1,3 +1,7 @@
-/**
- * Created by user on 4/6/15.
- */
+describe('JS: indexController: ', function(){
+    describe("hello", function () {
+        it('should return text', function () {
+            expect(hello()).toBe('hello');
+        });
+    });
+});
