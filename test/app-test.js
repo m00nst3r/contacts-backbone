@@ -18,3 +18,13 @@ describe("matches", function () {
         expect(matches('1001 Cool Drive Apt. 000')).toBe(false);
     });
 });
+
+describe("invertOffset", function () {
+    it("should invert '-180' to '180' ", function () {
+        expect(invertOffset(-180)).toBe(180)
+    });
+
+    it("should invert '180' to '-180' ", function () {
+        expect(invertOffset(180)).toBe(-180)
+    });
+});
